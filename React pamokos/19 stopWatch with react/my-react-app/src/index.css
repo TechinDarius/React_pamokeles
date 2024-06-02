@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d3d3d355;
+}
+
+.stopwatch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid;
+    border-radius: 50px;
+    background-color: #fff;
+    padding: 30px; 
+}
+.display{
+    font-size: 5rem;
+    font-weight: bold;
+    color: #413341;
+    text-shadow: 2px 2px 2px #000;
+}
+.controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+.start-button{
+    background-color: #44a844;
+}
+.start-button:hover{
+    background-color: #86cc86;
+}
+.stop-button{
+    background-color: #df1919;
+}
+.stop-button:hover{
+    background-color: #e45a5a;
+}
+.reset-button{
+    background-color: #3636eb;
+}
+.reset-button:hover{
+    background-color: #6e6ee6;
+}

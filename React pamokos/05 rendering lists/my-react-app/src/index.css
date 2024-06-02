@@ -1,0 +1,20 @@
+.list-category{
+font-size: 2.5em;
+font-weight: bold;
+color:#383737;
+margin-bottom: 10px;
+text-align: center;
+border: 3px solid;
+background-color:cyan;
+}
+.list-items li {
+  font-size: 2.em;
+  list-style: none;
+  color: #775d5d;
+  text-align: center;
+  margin: 0;
+}
+.list-items li:hover{
+  color: #b69367;
+  cursor: pointer;
+}
